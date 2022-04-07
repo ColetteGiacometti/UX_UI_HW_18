@@ -390,18 +390,22 @@ h3 {
 
 footer {
     background-color: #CEEEEA;
-    height:80px;
+    height:20%;
     margin-top: 5%;
 }
 
 .social {
+    list-style: none;
     display:inline-flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
+
 }
 
 .footerBlock {
     padding: 2%;
+    align-items: center;
 }
 
 /*Responsive Design section */
