@@ -8,6 +8,14 @@
     display: flex;
 }
 
+.logoMenu {
+    display:inline-block;
+    vertical-align:middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size:130%;
+    padding-right:3%;
+    text-align:right;
+}
 .inline-block {
     display:inline-block;
     vertical-align:middle;
@@ -39,8 +47,7 @@ menu {
 
 .heroImg {
     height: 100%;
-    padding-left: 5%;
-    padding-top: 5%;
+    padding: 5%;
     padding-bottom: 20%;
     background-color: #CEEEEA;
     font-family: 'Montserrat', sans-serif;
@@ -147,6 +154,108 @@ h3 {
     width: 200px;
     height: 10px;
 }
+
+.recSoftware {
+    background: #F8E7E8;
+    animation: recColor1 12s infinite;
+    animation-timing-function: linear;
+  }
+
+  .recSoftskills {
+    background: #F8E7E8;
+    animation: recColor2 12s infinite;
+    animation-timing-function: linear;
+  }
+
+  .recLanguage {
+    background: #F8E7E8;
+    animation: recColor3 12s infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes recColor1 {
+    from {
+        background: #ffffff;
+    }
+    10% {
+        background: #C6EBE7;
+    }
+    35% {
+        background: #ffffff;
+    }
+    40% {
+        background: #ffffff;
+    }
+    65% {
+        background: #ffffff;
+    }
+    70% {   
+        background: #ffffff;
+    }
+    95% {
+        background: #ffffff;
+    }
+    to {
+        background: #ffffff;
+    }
+  }
+
+
+  @keyframes recColor2 {
+    from {
+        background: #ffffff;
+    }
+    10% {
+        background: #ffffff;
+    }
+    35% {
+        background: #ffffff;
+    }
+    40% {
+        background: #F5A7A6;
+    }
+    65% {
+        background: #ffffff;
+    }
+    70% {   
+        background: #ffffff;
+    }
+    95% {
+        background: #ffffff;
+    }
+    to {
+        background: #ffffff;
+    }
+  }
+
+
+  @keyframes recColor3 {
+    from {
+        background: #ffffff;
+    }
+    10% {
+        background: #ffffff;
+    }
+    35% {
+        background: #ffffff;
+    }
+    40% {
+        background: #ffffff;
+    }
+    65% {
+        background: #ffffff;
+    }
+    70% {   
+        background: #F7DF99;
+    }
+    95% {
+        background: #ffffff;
+    }
+    to {
+        background: #ffffff;
+    }
+  }
+
 .containerGrid {
     margin: 0px 11%;
     margin-bottom: 10%;
@@ -171,7 +280,8 @@ h3 {
     color: #000000;
     text-align: center;
     padding:15px;
-    margin: 30%;
+    margin-right: 15%;
+    margin-left: 15%;
     margin-top: 30%;
   }
 
@@ -195,84 +305,84 @@ h3 {
 
   @keyframes circleColor1 {
     from {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     10% {
         background: #C6EBE7;
     }
     35% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     40% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     65% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     70% {   
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     95% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     to {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
   }
 
 
   @keyframes circleColor2 {
     from {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     10% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     35% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     40% {
-        background: #F9CACA;
+        background: #F5A7A6;
     }
     65% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     70% {   
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     95% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     to {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
   }
 
 
   @keyframes circleColor3 {
     from {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     10% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     35% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     40% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     65% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     70% {   
         background: #F7DF99;
     }
     95% {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
     to {
-        background: #F8E7E8;
+        background: #F9EEEF;
     }
   }
 
@@ -282,82 +392,113 @@ footer {
     background-color: #CEEEEA;
     height:80px;
     margin-top: 5%;
-    padding-top: 1%;
 }
 
 .social {
-text-align: center;
+    display:inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footerBlock {
+    padding: 2%;
 }
 
 /*Responsive Design section */
-
 /*Navigation */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .navigation {
-      width: 100%;
+        width:100%;
+        font-size: 110%;
     }
     .logo {
-      width:50%;
-      float: right;
+      width:60%;
+      float: left;
+      padding:1%;
+      margin-left:0%;
+      margin-top: 10%;
     }
 
     .inline-block {
       font-size:100%;
+      display: flex;
+      flex-direction: column;
       padding-right: 5%;
       padding-left: 5%;
     }
 }
 /*Hero section */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .heroImg {
-        height: 150%;
+        height: 100%;
+        width:90%;
     }
+
     .right {
-      width: 80%;
-      justify-content: center;
-      margin-bottom: 10%;
+        float: none;
+        width: 80%;
+        justify-content: center;
     }
     h1 {
-        font-size:70%;
+        margin-top: 2%;
+        font-size:60%;
     }
     .heroText {
-            font-size:40%;
+        font-size:40%;
     }
     button.download {
-        font-size:20%;
+        font-size:30%;
         border-radius: 60px;
         padding:3%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin-top: 0%;
+        margin-bottom: 10%;
     }
     
 }
 /*Work section */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     h2 {
+        margin: unset;
         margin-top: 10%;
         margin-bottom: 3%;
-        font-size:130%;
+        margin-left: 10%;
+        font-size:160%;
+
       }
     h3 {
         text-align: center;
-        font-size:50%;
+        font-size:70%;
       }
     .parentContainer {
         display: flex;
         flex-direction: column;
+        margin-left: 0%;
     }
     .flexChild {
-        display: flex-column;
-        width: 60%;
+        margin: unset;
         justify-content: center;
+        display: flex-column;
+        width: 80%;
     }
 }
 /*Skill section */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
+    .skillsRectangles {
+        margin: none;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .containerGrid {
-      width: 70%;
-      grid-template-rows: 100px 100px 100px 100px;
+      margin:unset;
+      width: 80%;
+      padding-left: 2%;
+      padding-right: 2%;
+      justify-content: center;
+      grid-template-rows: 130px 130px 130px 130px;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas:
         "reliable figma illustrator"
@@ -367,10 +508,10 @@ text-align: center;
         ;
     } 
     .circle {
-       width: 60px;
-       height: 60px;
-       line-height: 60px;
-       font-size: 80%;
+       width: 90px;
+       height: 90px;
+       line-height: 90px;
+       font-size: 110%;
        padding:5px;
        margin: 10%;
 
@@ -379,10 +520,18 @@ text-align: center;
       margin-top: 10%;
       margin-bottom: 10%;
       display: flex-row;
-      font-size:100%;
-      width: 95px;
-      height: 6px;
-      padding-bottom: 4%;
+      font-size:110%;
+      width: 25%;
+      height: 4px;
+      padding-bottom: 4.5%;
       }
 }
 
+/*footer section */
+@media only screen and (max-width: 600px) {
+    .footerBlock {
+        display: inline-flex;
+        justify-content: center;
+        padding: 3%;
+    }
+}
